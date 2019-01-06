@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../productplan.png';
+import logo from '../logo.svg';
 import searchIcon from '../search.svg';
 
 function Header(props) {
