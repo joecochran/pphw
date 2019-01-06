@@ -224,12 +224,15 @@ body {
   height: 6px;
   width: 10px;
 }
+
 .is-collapsed .i-arrow {
   transform: rotate(-90deg)
 }
+
 .is-collapsed .c-lane__header {
   border-radius: 3px;
 }
+
 .c-lane__header > span {
   margin-left: 8px;
 }
