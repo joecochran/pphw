@@ -1,6 +1,7 @@
 import React from 'react';
-import logo from '../logo.svg';
-import searchIcon from '../search.svg';
+import Search from '../Search/Search';
+import logo from './logo.svg';
+import './Header.scss';
 
 function Header(props) {
   return (
@@ -10,11 +11,7 @@ function Header(props) {
       </div>
       <div className="c-header__foo">
         <p>Candidate Roadmap</p>
-        <div className="c-search">
-          <button className="c-search__trigger">
-            <img src={searchIcon} alt="" className="c-search__icon"/>
-          </button>
-        </div>
+        <Search />
       </div>
     </header>
   )

@@ -1,0 +1,15 @@
+.c-sidebar {
+  width: 185px;
+  flex-shrink: 0;
+  background-color: #FFF;
+  padding: 16px;
+  border-left: 1px solid #C1C4C7;
+  position: relative;
+
+  &__onboarding {
+    position: absolute;
+    left: -484px;
+    top: -68px;
+    z-index: 1;
+  }
+}

@@ -1,20 +1,27 @@
 import React, { Component } from 'react';
-import Header from './components/Header';
-import Nav from './components/Nav';
-import Sidebar from './components/Sidebar';
-import Timeline from './components/Timeline';
-import LaneTarget from './components/LaneTarget';
-import Lane from './components/Lane';
+import Header from './components/Header/Header';
+import Nav from './components/Nav/Nav';
+import Sidebar from './components/Sidebar/Sidebar';
+import Timeline from './components/Timeline/Timeline';
+import LaneTarget from './components/LaneTarget/LaneTarget';
+import Lane from './components/Lane/Lane';
 
-import './App.css';
+import './App.scss';
 
 class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
       showLaneDropTarget: false,
-      lanes: []
+      lanes: [],
+      step: 0,
     }
+  }
+
+  componentDidMount() {
+    setTimeout(() => {
+      this.setState({step: 1});
+    }, 333);
   }
 
   handleLaneDrag = (event) => {
@@ -25,7 +32,7 @@ class App extends Component {
 
   handleBarDrag = (event) => {
     event.dataTransfer.dropEffect = "move";
-    event.dataTransfer.setData('text/plain', 'lane');
+    event.dataTransfer.setData('text/plain', 'bar');
   }
 
   addLane = (event) => {
@@ -37,11 +44,22 @@ class App extends Component {
         showLaneDropTarget: false,
       }));
     }
+    if (this.state.step === 2) {
+      setTimeout(() => {
+        this.setState({step: 3})
+      }, 333);
+    }
   }
 
   handleDragEnd = (event) => {
     event.preventDefault();
     this.setState({showLaneDropTarget: false});
+  }
+
+  updateStep = () => {
+    this.setState((currentState) => ({
+      step: currentState.step + 1
+    }));
   }
 
   render() {
@@ -56,13 +74,13 @@ class App extends Component {
             <div className="c-roadmap">
               <Timeline />
               {this.state.lanes.map(lane => (
-                <Lane id={lane.id} key={lane.id} />
+                <Lane id={lane.id} key={lane.id} handleStepUpdate={this.updateStep} />
               ))}
               {this.state.showLaneDropTarget && (
                 <LaneTarget handleLaneDrop={this.addLane} />
               )}
             </div>
-            <Sidebar handleLaneDrag={this.handleLaneDrag} handleDragEnd={this.handleDragEnd} handleBarDrag={this.handleBarDrag}/>
+            <Sidebar handleLaneDrag={this.handleLaneDrag} handleDragEnd={this.handleDragEnd} handleBarDrag={this.handleBarDrag} step={this.state.step} handleStepUpdate={this.updateStep} />
           </main>
         </div>
       </div>

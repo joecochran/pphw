@@ -1,4 +1,5 @@
 import React from 'react';
+import './Nav.scss';
 
 function Header(props) {
   return (

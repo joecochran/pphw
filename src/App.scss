@@ -1,0 +1,52 @@
+/* BASE */
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+  font-family: 'Gilroy';
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  height: 100%;
+  background-color: #E4E6E8;
+}
+
+#root {
+  height: 100%;
+}
+
+.App {
+  height: 100%;
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.row-1 {
+  flex-shrink: 0;
+}
+
+.row-2 {
+  flex-grow: 1;
+  height: 100%;
+  display: flex;
+}
+
+.o-main {
+  display: flex;
+  width: 100%;
+  flex-shrink: 1;
+}
+
+.c-roadmap {
+  flex-grow: 1;
+  padding: 0 32px;
+  overflow-x: scroll;
+}

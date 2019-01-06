@@ -1,0 +1,93 @@
+.c-popup {
+  position: relative;
+  width: 468px;
+
+  &::after {
+    border-radius: 4px;
+    box-shadow: 0 1px 14px rgba(0,0,0,.2);
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+  }
+
+  &::before {
+    background: #fff;
+    box-shadow: 0 1px 14px rgba(0,0,0,.2);
+    content: '';
+    height: 20px;
+    position: absolute;
+    right: -8px;
+    top: 94px;
+    transform: rotate(45deg);
+    width: 20px;
+    z-index:0;
+  }
+  &.c-popup--bar-steps::before {
+    top: 146px;
+  }
+
+  &__container {
+    background: #FFFFFF;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    position: relative;
+    z-index: 1;
+
+    .c-button {
+      align-self: flex-end;
+    }
+  }
+
+  &__close {
+    background-color: transparent;
+    background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20width%3D%2212%22%20height%3D%2211%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%0A%20%20%3Cg%20fill-rule%3D%22nonzero%22%20stroke%3D%22%235E6266%22%20stroke-width%3D%222%22%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%3E%0A%20%20%20%20%3Cpath%20d%3D%22M1.5%201l9%209M1.5%2010l9-9%22/%3E%0A%20%20%3C/g%3E%0A%3C/svg%3E%0A');
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 0;
+    height: 9px;
+    padding: 0;
+    position: absolute;
+    right: 16px;
+    top: 16px;
+    width: 10px;
+  }
+
+  &__image {
+    margin-bottom: 32px;
+    max-width: 100%;
+  }
+
+  &__title {
+    color: #2D3439;
+    font-family: Gilroy;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+
+  &__content {
+    color: #5A5E66;
+    font-family: Gilroy;
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 8px;
+  }
+
+  &__action {
+    color: #5A5E66;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 22px;
+  }
+
+  &.is-hidden {
+    display: none;
+  }
+}

@@ -1,11 +1,10 @@
 import React from 'react';
-import DragIcon from '../drag-icon.svg';
+import './Draggable.scss';
 
 function Draggable(props) {
   return (
     <div className="c-draggable" draggable="true" onDragStart={props.handleDrag} onDragEnd={props.handleDragEnd}>
-      <img className="c-draggable__icon" src={DragIcon} alt="" draggable="false"/>
-      <span>{props.name}</span>
+      {props.name}
     </div>
   )
 }

@@ -1,0 +1,15 @@
+.c-timeline {
+  display: grid;
+  grid-template-columns: repeat(13, 100px);
+  list-style: none;
+  margin: 0;
+  padding: 17px 0 0 18px;
+  margin-bottom: 16px;
+
+  &__month {
+    background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20width%3D%224%22%20height%3D%224%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%0A%20%20%3Crect%20y%3D%2224%22%20width%3D%224%22%20height%3D%224%22%20rx%3D%222%22%20transform%3D%22translate%280%20-24%29%22%20fill%3D%22%23C1C4C7%22%20fill-rule%3D%22nonzero%22/%3E%0A%3C/svg%3E%0A');
+    background-repeat: no-repeat;
+    height: 28px;
+    background-position: bottom left;
+  }
+}

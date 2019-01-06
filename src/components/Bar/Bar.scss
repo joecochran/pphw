@@ -1,0 +1,30 @@
+.c-bar {
+  background: #fff;
+  height: 38px;
+  width: 383px;
+  border-radius: 4px;
+  border: 1px dashed #C1C4C7;
+  position: absolute;
+  top: 8px;
+  left: 8px;
+}
+.c-bar:nth-of-type(2) {
+  left: 248px;
+  top: 54px;
+}
+.c-bar:nth-of-type(3) {
+  left: 418px;
+}
+
+.c-bar--filled {
+  background-color: #1973BA;
+  border: 1px solid #1973BA;
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
+  font-family: Helvetica;
+  font-size: 16px;
+  color: #FFFFFF;
+  line-height: 22px;
+}

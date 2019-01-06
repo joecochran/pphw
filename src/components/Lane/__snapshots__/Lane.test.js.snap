@@ -1,0 +1,1943 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Lane> matches snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Lane
+    handleStepUpdate={[Function]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="c-lane__header"
+          onClick={[Function]}
+        >
+          <img
+            alt=""
+            className="i-arrow"
+            src="arrow.svg"
+          />
+           
+          <span>
+            Lane 
+          </span>
+        </div>,
+        <div
+          className="c-lane__body"
+        />,
+      ],
+      "className": "c-lane",
+      "onDragOver": [Function],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <img
+              alt=""
+              className="i-arrow"
+              src="arrow.svg"
+            />,
+            " ",
+            <span>
+              Lane 
+            </span>,
+          ],
+          "className": "c-lane__header",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "alt": "",
+              "className": "i-arrow",
+              "src": "arrow.svg",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "Lane ",
+                undefined,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              "Lane ",
+              undefined,
+            ],
+            "type": "span",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            false,
+            false,
+            false,
+          ],
+          "className": "c-lane__body",
+        },
+        "ref": null,
+        "rendered": Array [
+          false,
+          false,
+          false,
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="c-lane__header"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="i-arrow"
+              src="arrow.svg"
+            />
+             
+            <span>
+              Lane 
+            </span>
+          </div>,
+          <div
+            className="c-lane__body"
+          />,
+        ],
+        "className": "c-lane",
+        "onDragOver": [Function],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <img
+                alt=""
+                className="i-arrow"
+                src="arrow.svg"
+              />,
+              " ",
+              <span>
+                Lane 
+              </span>,
+            ],
+            "className": "c-lane__header",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "",
+                "className": "i-arrow",
+                "src": "arrow.svg",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "Lane ",
+                  undefined,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                "Lane ",
+                undefined,
+              ],
+              "type": "span",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              false,
+              false,
+              false,
+            ],
+            "className": "c-lane__body",
+          },
+          "ref": null,
+          "rendered": Array [
+            false,
+            false,
+            false,
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`<Lane> matches snapshot when collapsed 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Lane
+    handleStepUpdate={[Function]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="c-lane__header"
+          onClick={[Function]}
+        >
+          <img
+            alt=""
+            className="i-arrow"
+            src="arrow.svg"
+          />
+           
+          <span>
+            Lane 
+          </span>
+        </div>,
+        <div
+          className="c-lane__body c-lane__body--row2"
+        >
+          <Bar
+            handleDrop={[Function]}
+            label="Roadmap Item 1"
+          />
+          <Bar
+            handleDrop={[Function]}
+            label="Roadmap Item 2"
+          />
+          <Bar
+            handleDrop={[Function]}
+            label="Roadmap Item 3"
+          />
+        </div>,
+      ],
+      "className": "c-lane is-collapsed",
+      "onDragOver": [Function],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <img
+              alt=""
+              className="i-arrow"
+              src="arrow.svg"
+            />,
+            " ",
+            <span>
+              Lane 
+            </span>,
+          ],
+          "className": "c-lane__header",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "alt": "",
+              "className": "i-arrow",
+              "src": "arrow.svg",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "Lane ",
+                undefined,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              "Lane ",
+              undefined,
+            ],
+            "type": "span",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <Bar
+              handleDrop={[Function]}
+              label="Roadmap Item 1"
+            />,
+            <Bar
+              handleDrop={[Function]}
+              label="Roadmap Item 2"
+            />,
+            <Bar
+              handleDrop={[Function]}
+              label="Roadmap Item 3"
+            />,
+          ],
+          "className": "c-lane__body c-lane__body--row2",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "handleDrop": [Function],
+              "label": "Roadmap Item 1",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "handleDrop": [Function],
+              "label": "Roadmap Item 2",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "handleDrop": [Function],
+              "label": "Roadmap Item 3",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="c-lane__header"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="i-arrow"
+              src="arrow.svg"
+            />
+             
+            <span>
+              Lane 
+            </span>
+          </div>,
+          <div
+            className="c-lane__body c-lane__body--row2"
+          >
+            <Bar
+              handleDrop={[Function]}
+              label="Roadmap Item 1"
+            />
+            <Bar
+              handleDrop={[Function]}
+              label="Roadmap Item 2"
+            />
+            <Bar
+              handleDrop={[Function]}
+              label="Roadmap Item 3"
+            />
+          </div>,
+        ],
+        "className": "c-lane is-collapsed",
+        "onDragOver": [Function],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <img
+                alt=""
+                className="i-arrow"
+                src="arrow.svg"
+              />,
+              " ",
+              <span>
+                Lane 
+              </span>,
+            ],
+            "className": "c-lane__header",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "",
+                "className": "i-arrow",
+                "src": "arrow.svg",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "Lane ",
+                  undefined,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                "Lane ",
+                undefined,
+              ],
+              "type": "span",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <Bar
+                handleDrop={[Function]}
+                label="Roadmap Item 1"
+              />,
+              <Bar
+                handleDrop={[Function]}
+                label="Roadmap Item 2"
+              />,
+              <Bar
+                handleDrop={[Function]}
+                label="Roadmap Item 3"
+              />,
+            ],
+            "className": "c-lane__body c-lane__body--row2",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "handleDrop": [Function],
+                "label": "Roadmap Item 1",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "handleDrop": [Function],
+                "label": "Roadmap Item 2",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "handleDrop": [Function],
+                "label": "Roadmap Item 3",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`<Lane> matches snapshot when collapsed 2`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Lane
+    handleStepUpdate={[Function]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="c-lane__header"
+          onClick={[Function]}
+        >
+          <img
+            alt=""
+            className="i-arrow"
+            src="arrow.svg"
+          />
+           
+          <span>
+            Lane 
+          </span>
+        </div>,
+        <div
+          className="c-lane__body c-lane__body--row2"
+        >
+          <Bar
+            handleDrop={[Function]}
+            label="Roadmap Item 1"
+          />
+          <Bar
+            handleDrop={[Function]}
+            label="Roadmap Item 2"
+          />
+          <Bar
+            handleDrop={[Function]}
+            label="Roadmap Item 3"
+          />
+        </div>,
+      ],
+      "className": "c-lane",
+      "onDragOver": [Function],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <img
+              alt=""
+              className="i-arrow"
+              src="arrow.svg"
+            />,
+            " ",
+            <span>
+              Lane 
+            </span>,
+          ],
+          "className": "c-lane__header",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "alt": "",
+              "className": "i-arrow",
+              "src": "arrow.svg",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "Lane ",
+                undefined,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              "Lane ",
+              undefined,
+            ],
+            "type": "span",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <Bar
+              handleDrop={[Function]}
+              label="Roadmap Item 1"
+            />,
+            <Bar
+              handleDrop={[Function]}
+              label="Roadmap Item 2"
+            />,
+            <Bar
+              handleDrop={[Function]}
+              label="Roadmap Item 3"
+            />,
+          ],
+          "className": "c-lane__body c-lane__body--row2",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "handleDrop": [Function],
+              "label": "Roadmap Item 1",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "handleDrop": [Function],
+              "label": "Roadmap Item 2",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "handleDrop": [Function],
+              "label": "Roadmap Item 3",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="c-lane__header"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="i-arrow"
+              src="arrow.svg"
+            />
+             
+            <span>
+              Lane 
+            </span>
+          </div>,
+          <div
+            className="c-lane__body c-lane__body--row2"
+          >
+            <Bar
+              handleDrop={[Function]}
+              label="Roadmap Item 1"
+            />
+            <Bar
+              handleDrop={[Function]}
+              label="Roadmap Item 2"
+            />
+            <Bar
+              handleDrop={[Function]}
+              label="Roadmap Item 3"
+            />
+          </div>,
+        ],
+        "className": "c-lane",
+        "onDragOver": [Function],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <img
+                alt=""
+                className="i-arrow"
+                src="arrow.svg"
+              />,
+              " ",
+              <span>
+                Lane 
+              </span>,
+            ],
+            "className": "c-lane__header",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "",
+                "className": "i-arrow",
+                "src": "arrow.svg",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "Lane ",
+                  undefined,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                "Lane ",
+                undefined,
+              ],
+              "type": "span",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <Bar
+                handleDrop={[Function]}
+                label="Roadmap Item 1"
+              />,
+              <Bar
+                handleDrop={[Function]}
+                label="Roadmap Item 2"
+              />,
+              <Bar
+                handleDrop={[Function]}
+                label="Roadmap Item 3"
+              />,
+            ],
+            "className": "c-lane__body c-lane__body--row2",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "handleDrop": [Function],
+                "label": "Roadmap Item 1",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "handleDrop": [Function],
+                "label": "Roadmap Item 2",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "handleDrop": [Function],
+                "label": "Roadmap Item 3",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`<Lane> matches snapshot with 1 bar 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Lane
+    handleStepUpdate={[Function]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="c-lane__header"
+          onClick={[Function]}
+        >
+          <img
+            alt=""
+            className="i-arrow"
+            src="arrow.svg"
+          />
+           
+          <span>
+            Lane 
+          </span>
+        </div>,
+        <div
+          className="c-lane__body c-lane__body--row2"
+        >
+          <Bar
+            handleDrop={[Function]}
+            label="Roadmap Item 1"
+          />
+          <Bar
+            handleDrop={[Function]}
+            label="Roadmap Item 2"
+          />
+        </div>,
+      ],
+      "className": "c-lane",
+      "onDragOver": [Function],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <img
+              alt=""
+              className="i-arrow"
+              src="arrow.svg"
+            />,
+            " ",
+            <span>
+              Lane 
+            </span>,
+          ],
+          "className": "c-lane__header",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "alt": "",
+              "className": "i-arrow",
+              "src": "arrow.svg",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "Lane ",
+                undefined,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              "Lane ",
+              undefined,
+            ],
+            "type": "span",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <Bar
+              handleDrop={[Function]}
+              label="Roadmap Item 1"
+            />,
+            <Bar
+              handleDrop={[Function]}
+              label="Roadmap Item 2"
+            />,
+            false,
+          ],
+          "className": "c-lane__body c-lane__body--row2",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "handleDrop": [Function],
+              "label": "Roadmap Item 1",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "handleDrop": [Function],
+              "label": "Roadmap Item 2",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          false,
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="c-lane__header"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="i-arrow"
+              src="arrow.svg"
+            />
+             
+            <span>
+              Lane 
+            </span>
+          </div>,
+          <div
+            className="c-lane__body c-lane__body--row2"
+          >
+            <Bar
+              handleDrop={[Function]}
+              label="Roadmap Item 1"
+            />
+            <Bar
+              handleDrop={[Function]}
+              label="Roadmap Item 2"
+            />
+          </div>,
+        ],
+        "className": "c-lane",
+        "onDragOver": [Function],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <img
+                alt=""
+                className="i-arrow"
+                src="arrow.svg"
+              />,
+              " ",
+              <span>
+                Lane 
+              </span>,
+            ],
+            "className": "c-lane__header",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "",
+                "className": "i-arrow",
+                "src": "arrow.svg",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "Lane ",
+                  undefined,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                "Lane ",
+                undefined,
+              ],
+              "type": "span",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <Bar
+                handleDrop={[Function]}
+                label="Roadmap Item 1"
+              />,
+              <Bar
+                handleDrop={[Function]}
+                label="Roadmap Item 2"
+              />,
+              false,
+            ],
+            "className": "c-lane__body c-lane__body--row2",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "handleDrop": [Function],
+                "label": "Roadmap Item 1",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "handleDrop": [Function],
+                "label": "Roadmap Item 2",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            false,
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`<Lane> matches snapshot with 2 bars 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Lane
+    handleStepUpdate={[Function]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="c-lane__header"
+          onClick={[Function]}
+        >
+          <img
+            alt=""
+            className="i-arrow"
+            src="arrow.svg"
+          />
+           
+          <span>
+            Lane 
+          </span>
+        </div>,
+        <div
+          className="c-lane__body c-lane__body--row2"
+        >
+          <Bar
+            handleDrop={[Function]}
+            label="Roadmap Item 1"
+          />
+          <Bar
+            handleDrop={[Function]}
+            label="Roadmap Item 2"
+          />
+          <Bar
+            handleDrop={[Function]}
+            label="Roadmap Item 3"
+          />
+        </div>,
+      ],
+      "className": "c-lane",
+      "onDragOver": [Function],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <img
+              alt=""
+              className="i-arrow"
+              src="arrow.svg"
+            />,
+            " ",
+            <span>
+              Lane 
+            </span>,
+          ],
+          "className": "c-lane__header",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "alt": "",
+              "className": "i-arrow",
+              "src": "arrow.svg",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "Lane ",
+                undefined,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              "Lane ",
+              undefined,
+            ],
+            "type": "span",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <Bar
+              handleDrop={[Function]}
+              label="Roadmap Item 1"
+            />,
+            <Bar
+              handleDrop={[Function]}
+              label="Roadmap Item 2"
+            />,
+            <Bar
+              handleDrop={[Function]}
+              label="Roadmap Item 3"
+            />,
+          ],
+          "className": "c-lane__body c-lane__body--row2",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "handleDrop": [Function],
+              "label": "Roadmap Item 1",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "handleDrop": [Function],
+              "label": "Roadmap Item 2",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "handleDrop": [Function],
+              "label": "Roadmap Item 3",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="c-lane__header"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="i-arrow"
+              src="arrow.svg"
+            />
+             
+            <span>
+              Lane 
+            </span>
+          </div>,
+          <div
+            className="c-lane__body c-lane__body--row2"
+          >
+            <Bar
+              handleDrop={[Function]}
+              label="Roadmap Item 1"
+            />
+            <Bar
+              handleDrop={[Function]}
+              label="Roadmap Item 2"
+            />
+            <Bar
+              handleDrop={[Function]}
+              label="Roadmap Item 3"
+            />
+          </div>,
+        ],
+        "className": "c-lane",
+        "onDragOver": [Function],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <img
+                alt=""
+                className="i-arrow"
+                src="arrow.svg"
+              />,
+              " ",
+              <span>
+                Lane 
+              </span>,
+            ],
+            "className": "c-lane__header",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "",
+                "className": "i-arrow",
+                "src": "arrow.svg",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "Lane ",
+                  undefined,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                "Lane ",
+                undefined,
+              ],
+              "type": "span",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <Bar
+                handleDrop={[Function]}
+                label="Roadmap Item 1"
+              />,
+              <Bar
+                handleDrop={[Function]}
+                label="Roadmap Item 2"
+              />,
+              <Bar
+                handleDrop={[Function]}
+                label="Roadmap Item 3"
+              />,
+            ],
+            "className": "c-lane__body c-lane__body--row2",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "handleDrop": [Function],
+                "label": "Roadmap Item 1",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "handleDrop": [Function],
+                "label": "Roadmap Item 2",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "handleDrop": [Function],
+                "label": "Roadmap Item 3",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`<Lane> matches snapshot with no bars 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Lane
+    handleStepUpdate={[Function]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="c-lane__header"
+          onClick={[Function]}
+        >
+          <img
+            alt=""
+            className="i-arrow"
+            src="arrow.svg"
+          />
+           
+          <span>
+            Lane 
+          </span>
+        </div>,
+        <div
+          className="c-lane__body"
+        >
+          <Bar
+            handleDrop={[Function]}
+            label="Roadmap Item 1"
+          />
+        </div>,
+      ],
+      "className": "c-lane",
+      "onDragOver": [Function],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <img
+              alt=""
+              className="i-arrow"
+              src="arrow.svg"
+            />,
+            " ",
+            <span>
+              Lane 
+            </span>,
+          ],
+          "className": "c-lane__header",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "alt": "",
+              "className": "i-arrow",
+              "src": "arrow.svg",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "Lane ",
+                undefined,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              "Lane ",
+              undefined,
+            ],
+            "type": "span",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <Bar
+              handleDrop={[Function]}
+              label="Roadmap Item 1"
+            />,
+            false,
+            false,
+          ],
+          "className": "c-lane__body",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "handleDrop": [Function],
+              "label": "Roadmap Item 1",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          false,
+          false,
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="c-lane__header"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="i-arrow"
+              src="arrow.svg"
+            />
+             
+            <span>
+              Lane 
+            </span>
+          </div>,
+          <div
+            className="c-lane__body"
+          >
+            <Bar
+              handleDrop={[Function]}
+              label="Roadmap Item 1"
+            />
+          </div>,
+        ],
+        "className": "c-lane",
+        "onDragOver": [Function],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <img
+                alt=""
+                className="i-arrow"
+                src="arrow.svg"
+              />,
+              " ",
+              <span>
+                Lane 
+              </span>,
+            ],
+            "className": "c-lane__header",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "",
+                "className": "i-arrow",
+                "src": "arrow.svg",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "Lane ",
+                  undefined,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                "Lane ",
+                undefined,
+              ],
+              "type": "span",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <Bar
+                handleDrop={[Function]}
+                label="Roadmap Item 1"
+              />,
+              false,
+              false,
+            ],
+            "className": "c-lane__body",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "handleDrop": [Function],
+                "label": "Roadmap Item 1",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            false,
+            false,
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

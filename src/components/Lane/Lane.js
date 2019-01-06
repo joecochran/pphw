@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import Bar from './Bar';
-import arrow from '../arrow.svg';
+import Bar from '../Bar/Bar';
+import arrow from './arrow.svg';
+import './Lane.scss';
 
 class Lane extends Component {
   constructor(props) {
@@ -18,13 +19,13 @@ class Lane extends Component {
 
   handleDragOver = () => {
     if (this.state.bars === 0) {
-      this.setState({showFirstBar: true})
+      this.setState({showFirstBar: true});
     }
     if (this.state.bars === 1) {
-      this.setState({showSecondBar: true})
+      this.setState({showSecondBar: true});
     }
     if (this.state.bars === 2) {
-      this.setState({showThirdBar: true})
+      this.setState({showThirdBar: true});
     }
   };
 
@@ -34,13 +35,14 @@ class Lane extends Component {
     }))
   }
 
-  handleDragLeave = () => {
-    
-  }
-
   handleDrop = (event) => {
     event.preventDefault();
-    this.setState((currentState) => ({bars: currentState.bars + 1}))
+    this.setState((currentState) => ({bars: currentState.bars + 1}), () => {
+      if (this.state.bars === 1) {
+        this.props.handleStepUpdate();
+      }
+    });
+
   }
 
   render() {
