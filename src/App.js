@@ -12,13 +12,14 @@ class App extends Component {
     super(props);
     this.state = {
       showLaneDropTarget: false,
+      lanes: []
     }
   }
 
   handleLaneDrag = (event) => {
     event.dataTransfer.dropEffect = "move";
-    event.dataTransfer.setData('text/html', 'anything')
-    this.setState({showLaneDropTarget: true})
+    event.dataTransfer.setData('text/html', 'lane')
+    this.setState({showLaneDropTarget: true});
   }
 
   render() {
