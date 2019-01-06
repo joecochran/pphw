@@ -1,36 +1,61 @@
 import React, { Component } from 'react';
 import Bar from './Bar';
+import arrow from '../arrow.svg';
 
 class Lane extends Component {
   constructor(props) {
     super(props);
     
     this.state = {
-      showBarTarget: false,
-      bars: 0
+      showFirstBar: false,
+      showSecondBar: false,
+      showThirdBar: false,
+      bars: 0,
+      rows: 0,
+      collapsed: false,
     }
   }
 
-  handleDragEnter() {
+  handleDragOver = () => {
+    if (this.state.bars === 0) {
+      this.setState({showFirstBar: true})
+    }
+    if (this.state.bars === 1) {
+      this.setState({showSecondBar: true})
+    }
+    if (this.state.bars === 2) {
+      this.setState({showThirdBar: true})
+    }
+  };
 
+  toggleCollapsed = () => {
+    this.setState((currentState) => ({
+      collapsed: !currentState.collapsed
+    }))
   }
 
-  handleDragLeave() {
+  handleDragLeave = () => {
     
   }
 
-  handleDrop(event) {
+  handleDrop = (event) => {
     event.preventDefault();
-    console.log('foo');
+    this.setState((currentState) => ({bars: currentState.bars + 1}))
   }
 
   render() {
     return (
-      <div className="c-lane" onDragOver={() => this.setState({showBarTarget: true})} >
-        <div className="c-lane__header">Lane {this.props.id}</div>
-        <div className="c-lane__body ">
-          {this.state.showBarTarget && (
-            <Bar handleDrop={this.handleDrop} />
+      <div className={"c-lane" + (this.state.collapsed ? ' is-collapsed' : '')} onDragOver={this.handleDragOver} >
+        <div className="c-lane__header" onClick={this.toggleCollapsed}><img className="i-arrow" src={arrow} alt="" /> <span>Lane {this.props.id}</span></div>
+        <div className={"c-lane__body" + (this.state.showSecondBar ? ' c-lane__body--row2' : '')}>
+          {this.state.showFirstBar && (
+            <Bar handleDrop={this.handleDrop} label="Roadmap Item 1" />
+          )}
+          {this.state.showSecondBar && (
+            <Bar handleDrop={this.handleDrop} label="Roadmap Item 2" />
+          )}
+          {this.state.showThirdBar && (
+            <Bar handleDrop={this.handleDrop} label="Roadmap Item 3" />
           )}
         </div>
       </div>

@@ -15,7 +15,7 @@ class Bar extends Component {
 
   render() {
     return (
-      <div className={"c-lane__bar" + (this.state.filled ? ' c-lane__bar--filled' : '')} onDrop={this.handleDrop} onDragEnter={(event) => {event.preventDefault()}} onDragOver={(event) => {event.preventDefault()}}></div>
+      <div className={"c-lane__bar" + (this.state.filled ? ' c-lane__bar--filled' : '')} onDrop={this.handleDrop} onDragEnter={(event) => {event.preventDefault()}} onDragOver={(event) => {event.preventDefault()}}>{this.state.filled && (this.props.label)}</div>
     )
   }
   
