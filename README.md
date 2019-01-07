@@ -1,3 +1,5 @@
+[![CircleCI](https://circleci.com/gh/joecochran/pphw.svg?style=svg)](https://circleci.com/gh/joecochran/pphw)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Installation
