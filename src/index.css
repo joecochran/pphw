@@ -4,12 +4,12 @@ body {
 }
 
 @font-face {
-  font-family: Gilroy;
-  src: local('Gilroy') url(./fonts/Gilroy-Bold.otf);
+  font-family: 'Gilroy';
+  src: local('Gilroy') url(fonts/Gilroy-Bold.otf);
   font-weight: bold;
 }
 @font-face {
-  font-family: Gilroy;
-  src: local('Gilroy') url(./fonts/Gilroy-Medium.otf);
+  font-family: 'Gilroy';
+  src: local('Gilroy') url(fonts/Gilroy-Medium.otf);
   font-weight: normal;
 }
