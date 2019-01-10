@@ -5,11 +5,11 @@ body {
 
 @font-face {
   font-family: Gilroy;
-  src: local('Gilroy') url(./fonts/Gilroy-Bold.otf) format('otf');
+  src: local('Gilroy') url(./fonts/Gilroy-Bold.otf);
   font-weight: bold;
 }
 @font-face {
   font-family: Gilroy;
-  src: local('Gilroy') url(./fonts/Gilroy-Medium.otf) format('otf');
+  src: local('Gilroy') url(./fonts/Gilroy-Medium.otf);
   font-weight: normal;
 }
