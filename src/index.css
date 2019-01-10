@@ -4,12 +4,18 @@ body {
 }
 
 @font-face {
-  font-family: 'Gilroy';
-  src: local('Gilroy') url(fonts/Gilroy-Bold.otf);
-  font-weight: bold;
+  font-family: 'gilroy';
+  src: local('gilroy') url(fonts/radomir_tinkov_-_gilroy-medium-webfont.woff2) format('woff2'),
+       local('gilroy') url(fonts/radomir_tinkov_-_gilroy-medium-webfont.woff) format('woff');
+  font-weight: normal;
+  font-style: normal;
+
 }
 @font-face {
-  font-family: 'Gilroy';
-  src: local('Gilroy') url(fonts/Gilroy-Medium.otf);
-  font-weight: normal;
+  font-family: 'gilroy';
+  src: local('gilroy') url(fonts/radomir_tinkov_-_gilroy-bold-webfont.woff2) format('woff2'),
+       local('gilroy') url(fonts/radomir_tinkov_-_gilroy-bold-webfont.woff) format('woff');
+  font-weight: bold;
+  font-style: normal;
+
 }
