@@ -106,7 +106,7 @@
     </g>
   </g>
   <g clip-path="url(#l)" transform="matrix(1.33333 0 0 -1.33333 0 82.667)">
-    <text style="-inkscape-font-specification:Gilroy-Medium" transform="scale(1 -1) rotate(4 512.09 2172.173)" font-weight="500" font-size="14" font-family="Gilroy" fill="#5e6266">
+    <text style="-inkscape-font-specification:Gilroy-Medium" transform="scale(1 -1) rotate(4 512.09 2172.173)" font-weight="500" font-size="14" font-family="Gilroy-Medium" fill="#5e6266">
       <tspan y="0" x="0 8.8339996 17.695999 26.558001 30.058001 33.138 42 49.896">Add lane</tspan>
     </text>
   </g>
